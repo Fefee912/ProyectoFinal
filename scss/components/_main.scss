@@ -1,0 +1,180 @@
+/** Index **/
+.principal{
+    @include flex(flex, center, center);
+    margin-top: 15px;
+}
+
+.hero{
+    margin-top: 10px;
+}
+
+.texto{
+    width: 1100px;
+    text-align: center;
+    color: white;
+}
+
+/** Eventos **/
+.imagenes{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    .evento-1{
+        a{
+            text-decoration: none;
+            color: $color-general;
+            h2{
+                margin-top: 5px;
+            }
+        }
+        img{
+            border-radius: 15px;
+        }
+    }
+    .evento-2{
+        a{
+            text-decoration: none;
+            color: $color-general;
+            h2{
+                margin-top: 5px;
+            }
+        }
+        img{
+            border-radius: 15px;
+        }
+    }
+    .evento-3{
+        a{
+            text-decoration: none;
+            color: $color-general;
+            h2{
+                margin-top: 5px;
+            }
+        }
+        img{
+            border-radius: 15px;
+        }
+    }
+    .evento-4{
+        a{
+            text-decoration: none;
+            color: $color-general;
+            h2{
+                margin-top: 5px;
+            }
+        }
+        img{
+            border-radius: 15px;
+        }
+    }
+}
+
+/** Anto Nico - HTML **/
+
+.grid-galeria{
+    @extend %grid;
+    div{
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .img-14{
+        grid-row: span 2;
+    }
+    
+    .img-15{
+        grid-row: span 2;
+    }
+}
+
+/** Fede Agus - HTML **/
+
+.grid-galeria-2{
+    @extend %grid;
+    div{
+        img{
+            @extend %img;
+        }
+    }
+    .img-2{
+        grid-row: span 2;
+    }
+    .img-3{
+        grid-row: span 3;
+    }
+    .img-17{
+        grid-row: span 2 ;
+    }
+    .img-19{
+        grid-row: span 2;
+    }
+    .img-20{
+        grid-row: span 2;
+    }
+}
+
+/** Federica - HTML **/
+
+.grid-galeria-3{
+    @extend %grid;
+    div{
+        img{
+            @extend %img;
+        }
+    }
+    .img-1{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    
+    .img-6{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    
+    .img-9{
+        grid-row:span 2;
+    }
+    
+    .img-16{
+        grid-row: span 2;
+    }
+    
+    .img-fede-17{
+        grid-row: span 2;
+    }
+    
+    .img-23{
+        grid-row: span 2;
+    }
+    
+    .img-24{
+        grid-row: span 2;
+    }
+    
+    .img-25{
+        grid-row: span 3;
+    }
+}
+
+/** Ximena - HTML **/
+ .grid-galeria-4{
+    @extend %grid;
+    div{
+        img{
+            @extend %img;
+        }
+    }
+    .img-5{
+        grid-row: span 2;
+    }
+    .img-7{
+        grid-row: span 2;
+    }
+    .img-12{
+        grid-row: span 2;
+    }
+ }

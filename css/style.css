@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron&family=Onest:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kameron', serif;
+}
+
+.cabeza div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.cabeza div img{
+    width: 385px;
+    height: 118px;
+}
+
+.cabeza div nav ul li{
+    list-style: none;
+}
+
+.cabeza div nav ul li a{
+    margin: 10px;
+    color: white;
+    text-decoration-line: none;
+}
+
+.imagenes{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.evento-1 a img{
+    border-radius: 15px;
+}
+
+.evento-1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.evento-2 a img{
+    border-radius: 15px;
+}
+
+.evento-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.evento-3 a img{
+    border-radius: 15px;
+}
+
+.evento-3 a{
+    color: white;
+    text-decoration: none;
+}
+
+.evento-4 a img{
+    border-radius: 15px;
+}
+
+.evento-4 a{
+    color: white;
+    text-decoration: none;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    margin-top: 10px;
+}
+
+.texto{
+    width: 1100px;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie{
+    margin-top: 40px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pie svg{
+    color: white;
+}
+
+.pie-e{
+    margin-bottom: 13px;
+}
+
+.pie-e svg{
+    color: white;
+}
+/** Anto - Nico **/
+.grid-galeria{
+    padding: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 400px;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.grid-galeria div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-14{
+    grid-row: span 2;
+}
+
+.img-15{
+    grid-row: span 2;
+}
+
+/** Fede Agus **/
+.grid-galeria-2{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 400px;  
+    gap: 15px;
+}
+
+.grid-galeria-2 div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-2{
+    grid-row: span 2;
+}
+.img-3{
+    grid-row: span 3;
+}
+.img-17{
+    grid-row: span 2 ;
+}
+.img-19{
+    grid-row: span 2;
+}
+.img-20{
+    grid-row: span 2;
+}
+
+/** Federica **/
+.grid-galeria-3{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 400px;
+    gap: 15px;
+}
+
+.grid-galeria-3 div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-1{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.img-6{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.img-9{
+    grid-row:span 2;
+}
+
+.img-16{
+    grid-row: span 2;
+}
+
+.img-fede-17{
+    grid-row: span 2;
+}
+
+.img-23{
+    grid-row: span 2;
+}
+
+.img-24{
+    grid-row: span 2;
+}
+
+.img-25{
+    grid-row: span 3;
+}
+
+.pie-fede{
+    margin-bottom: 10px;
+}
+
+.pie-fede svg{
+    color: white;
+}
+
+/** Ximena **/
+
+.grid-galeria-4{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 400px;
+    gap: 15px;
+}
+
+.grid-galeria-4 div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-5{
+    grid-row: span 2;
+}
+.img-7{
+    grid-row: span 2;
+}
+.img-12{
+    grid-row: span 2;
+}
+/** Media Querys - Index**/
+
+@media screen and (max-width:1255px) {
+    .principal{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .texto{
+        width: 936px;
+    }
+    
+}
+
+@media screen and (max-width:991px) {
+    .texto{
+        width: 696px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .texto{
+        width: 516px;
+    }
+    
+}
+@media screen and (max-width: 585px) {
+    .cabeza div{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .cabeza div nav{
+        margin-top: 20px;
+    }
+
+    .cabeza div img{
+        width: 320px;
+        height: 98px;
+        margin-right: 25px;
+    }
+    
+    .texto {
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .cabeza div{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .cabeza div img{
+        margin: 0px;
+    }
+    
+    .texto{
+        margin: 0px;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .texto h2{
+        margin-top: 8px;
+        font-size: 18px;
+    }
+    .texto h3{
+        font-size: 18px;
+    }
+    .pie{
+        margin-top: 15px;
+    }
+    
+}
+
+/** Media Queries - Eventos **/
+@media screen and (max-width:1850px) {
+    .imagenes{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .imagenes{
+        margin: 0px;
+        padding: 20px;
+        gap: 30px;
+    }
+    .imagenes .evento-1 a img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .imagenes .evento-2 a img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .imagenes .evento-3 a img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .imagenes .evento-4 a img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .pie-eventos{
+        margin-top: 9px;
+    }
+}
+
+/** Media Queries - Anto - Nico **/
+@media screen and (max-width:1200px) {
+    .grid-galeria{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .grid-galeria{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+/** Media Queries - Fede - Agus **/
+
+@media screen and (max-width:1200px) {
+    .grid-galeria-2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:768px) {
+    .grid-galeria-2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+/** Media Queries - Federica **/
+@media screen and (max-width:1400px) {
+    .grid-galeria-3{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .img-1{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+@media screen and (max-width:1050px) {
+    .grid-galeria-3{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .img-6{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+/** Media Queries - Ximena **/
+@media screen and (max-width:1250px) {
+    .grid-galeria-4{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .grid-galeria-4{
+        grid-template-columns: repeat(1, 1fr);
+    }    
+}
