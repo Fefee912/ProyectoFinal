@@ -22,21 +22,16 @@
     .evento-1{
         position: relative;
         overflow: hidden;
-        width: 900px;
-        height: 600px;
         text-align: center;
-        marign
         .imagen{
-            max-width: 100%;
-            height: auto;
             display: block;
         }
         .overlay{
             position: absolute;
             top: 0;
             left: 0;
-            width: 900px;
-            height: 600px;
+            width: 100%;
+            height: 100%;
             background-color: rgba(255, 255, 255, 0.8); 
             text-align: center;
             color: #000; 
@@ -56,20 +51,16 @@
     .evento-2{
         position: relative;
         overflow: hidden;
-        width: 900px;
-        height: 600px;
         text-align: center;
         .imagen{
-            max-width: 100%;
-            height: auto;
             display: block;
         }
         .overlay{
             position: absolute;
             top: 0;
             left: 0;
-            width: 900px;
-            height: 600px;
+            width: 100%;
+            height: 100%;
             background-color: rgba(255, 255, 255, 0.8); 
             text-align: center;
             color: #000; 
@@ -89,20 +80,17 @@
     .evento-3{
         position: relative;
         overflow: hidden;
-        width: 900px;
-        height: 600px;
         text-align: center;
         .imagen{
-            max-width: 100%;
-            height: auto;
+
             display: block;
         }
         .overlay{
             position: absolute;
             top: 0;
             left: 0;
-            width: 900px;
-            height: 600px;
+            width: 100%;
+            height: 100%;
             background-color: rgba(255, 255, 255, 0.8); 
             text-align: center;
             color: #000; 
@@ -122,20 +110,16 @@
     .evento-4{
         position: relative;
         overflow: hidden;
-        width: 900px;
-        height: 600px;
         text-align: center;
         .imagen{
-            max-width: 100%;
-            height: auto;
             display: block;
         }
         .overlay{
             position: absolute;
             top: 0;
             left: 0;
-            width: 900px;
-            height: 600px;
+            width: 100%;
+            height: 100%;
             background-color: rgba(255, 255, 255, 0.8); 
             text-align: center;
             color: #000; 

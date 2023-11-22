@@ -3,16 +3,17 @@
     width: 100%;
     text-align: center;
     margin-top: 20px;
-    @include flex(flex, center, center);
     div{
+        @include flex(flex, space-between, center);
+        margin: 20px;
         nav{
             ul{
                 li{
                     list-style: none;
                     a{
-                        margin: 40px;
                         color: white;
                         text-decoration-line: none;
+                        margin: 10px;
                     }
                 }
             }
